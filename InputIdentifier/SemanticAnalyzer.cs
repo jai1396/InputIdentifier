@@ -32,21 +32,7 @@ namespace InputIdentifier
         
         public void CompareSymbols()
         {
-            //            var tree = SyntaxFactory.ParseSyntaxTree(@"
-            //using System;
-            //class C
-            //{
-            //}
-            //class Program
-            //{
-            //    public static void Main()
-            //    {
-            //        var c = new C(); 
-            //        c+=x;
-            //        Console.WriteLine(c.ToString());
-            //    }
-            //}");
-
+            
             var tree = SyntaxFactory.ParseSyntaxTree(@"
 class Program
 {
